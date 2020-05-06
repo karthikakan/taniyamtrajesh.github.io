@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 60px;
+}
+
+
+div{
+    
+    position: relative;
+} 
+
+.col{
+    
+    width: 32%;
+    float: left;
+    margin: 4px;
+    border: 1px solid black;
+}
+
+.bg{
+    background-color:lavender;
+}
+
+.start{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.one{
+    background-color: orange;
+}
+
+.two{
+    background-color:  red;
+}
+
+.three{
+    background-color: burlywood;
+}
+
+p{
+    padding:25px 15px 15px 15px;
+    text-align: left;
+    
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .col
+    {
+        width: 48%;
+        margin-right: 2.5px;
+        margin-left: 10px; 
+    }
+
+    .right{
+        width: 97.3%;
+        clear: both;
+    }
+}
+
+@media (max-width:767px)
+{
+    .col{
+        width: 90%;
+        margin-left: 5%;
+        
+    }
+
+}
